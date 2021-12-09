@@ -27,7 +27,7 @@ export const AvaxboxProvider = ({ children }) => {
       const signer = provider.getSigner()
 
       // This address will be different for every network
-      const contractAddress = '0xa1E47689f396fED7d18D797d9D31D727d2c0d483'
+      const contractAddress = '0x1dc8682Be851b91Dd237A2AD261D05cAA988Bb04'
       // Initialise the contract instance
       const contract = new ethers.Contract(
         contractAddress,
