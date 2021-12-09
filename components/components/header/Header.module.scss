@@ -1,0 +1,45 @@
+@import '../../styles/all';
+
+.header {
+  align-items: center;
+  color: $c-light-text;
+  display: flex;
+  justify-content: space-between;
+  padding: $space-md;
+  width: 100%;
+
+  &Title {
+    font-size: 18px;
+  }
+
+  &Buttons {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+  }
+
+  &Link {
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: $space-sm;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &Button {
+    color: $c-light-text;
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: $space-md $padding-lg;
+  }
+
+  @media screen and (min-width: $bp-desktop) {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}

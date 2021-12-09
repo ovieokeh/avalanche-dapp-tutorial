@@ -1,0 +1,26 @@
+@import '../../styles/all';
+
+.layout {
+  background: $c-dark-text;
+  height: 100%;
+  max-width: 700px;
+  margin: auto;
+
+  &Main {
+    min-height: 85vh;
+    padding: $space-md $padding-sm;
+  }
+
+  @media screen and (min-width: $bp-tablet) {
+    &Main {
+      padding: $space-md $padding-lg 0;
+    }
+  }
+
+  @media screen and (min-width: $bp-desktop) {
+    &Main {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+}

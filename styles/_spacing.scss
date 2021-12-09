@@ -1,0 +1,18 @@
+@use "sass:math";
+
+$grid-pt: 8px;
+
+$padding-lg: 56px;
+$padding-sm: math.div($padding-lg, 2);
+
+$space-xs: 1 * $grid-pt;
+$space-sm: 2 * $grid-pt;
+$space-md: 3 * $grid-pt;
+$space-lg: 4 * $grid-pt;
+$space-xl: 5 * $grid-pt;
+$space-xxl: 6 * $grid-pt;
+$space-xxxl: 7 * $grid-pt;
+
+$site-width: 140 * $grid-pt;
+$bp-tablet: 768px;
+$bp-desktop: 1368px;

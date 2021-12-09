@@ -1,0 +1,17 @@
+@import '../../styles/all';
+
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &Link {
+    color: $c-light-text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
