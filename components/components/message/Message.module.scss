@@ -1,0 +1,40 @@
+@import '../../styles/all';
+
+.message {
+  background: $c-white;
+  border-radius: $radius-m;
+  color: $c-dark-text;
+  margin: $space-md 0;
+  overflow: hidden;
+  width: 100%;
+
+  &Info {
+    // background: $c-dark-text;
+    color: $c-dark-text;
+    padding: $space-xs $space-sm;
+  }
+
+  &Date {
+    font-size: 12px;
+    margin-left: $space-md;
+  }
+
+  &Sender {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  &Tip {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  &Text {
+    color: $c-dark-text;
+    font-size: 14px;
+    margin: 0;
+    padding: $space-xs $space-sm;
+  }
+}

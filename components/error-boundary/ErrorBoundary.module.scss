@@ -1,0 +1,13 @@
+@import '../../styles/all';
+
+.boundary {
+  color: $c-light-text;
+  max-width: 500px;
+  margin: $space-xxxl auto;
+
+  &Button {
+    color: $c-light-text;
+    display: block;
+    margin: $space-sm auto;
+  }
+}

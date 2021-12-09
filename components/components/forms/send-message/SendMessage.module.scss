@@ -1,0 +1,83 @@
+@import '../../../styles/all';
+
+.form {
+  background: $c-white;
+  border-radius: $radius-m;
+  color: $c-dark-text;
+  margin: $space-md 0 $space-xl;
+  padding: $space-md $space-sm;
+  width: 100%;
+
+  &Label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $space-sm;
+
+    &Text {
+      margin-right: $space-sm;
+    }
+  }
+
+  &Textarea {
+    font-size: 16px;
+    font-family: 'Poppins';
+    border-color: $c-blue-300;
+    color: $c-dark-text;
+    border-radius: $radius-s;
+    height: 100px;
+    padding: $space-xs;
+    margin-bottom: $space-md;
+
+    &::placeholder {
+      font-family: 'Poppins';
+      font-size: 12px;
+    }
+
+    &:focus,
+    &:focus-visible,
+    &:active {
+      border-color: $c-dark-text;
+      outline: $c-blue-700;
+    }
+
+    &::placeholder {
+      color: $c-blue-700;
+      opacity: 0.5;
+    }
+  }
+
+  &Input {
+    background: transparent;
+    border: 1px solid $c-blue-300;
+    border-radius: $radius-s;
+    padding: $space-xs;
+    outline: none;
+
+    &:focus,
+    &:focus-visible,
+    &:active {
+      border-color: $c-dark-text;
+    }
+  }
+
+  &Submit {
+    background: $c-dark-text;
+    color: $c-light-text;
+    display: block;
+    border: 1px solid $c-dark-text;
+    border-radius: $radius-s;
+    padding: $space-xs;
+
+    &:hover {
+      background: transparent;
+      color: $c-dark-text;
+      cursor: pointer;
+    }
+  }
+
+  &Notification {
+    font-size: 12px;
+    margin-bottom: $space-xs;
+    margin-top: $space-md;
+  }
+}
